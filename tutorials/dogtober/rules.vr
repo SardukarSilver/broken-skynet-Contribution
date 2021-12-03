@@ -1,0 +1,11 @@
+[VALIDATE_1]
+###Rule
+http-status-check
+
+###Question
+Please paste a link to your #dogtoberfest submission?
+
+###Match
+200
+
+[VALIDATE_1]
