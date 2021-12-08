@@ -9,6 +9,9 @@ primary_tag: topic>cloud
 
 ![Dogtoberfest](Dogtoberfest.jpg)
 ![Devtoberfest](Devtoberfest.jpg)
+[Test SQL link](sql1.sql)
+[Test text link](test.txt)
+
 
 This tutorial is part of the Devtoberfest 2021, a celebration of and for Developers. For more information, see [Devtoberfest 2021 on GitHub](https://github.com/SAP-samples/devtoberfest-2021).
 
@@ -17,7 +20,7 @@ some new contend added here and here woof woof woof
 ---
 
 [ACCORDION-BEGIN [Step 1: ](Paste your link here)]
-
+![Link text e.g., Destination screen](Dogtoberfest.jpg)
 
 
 
