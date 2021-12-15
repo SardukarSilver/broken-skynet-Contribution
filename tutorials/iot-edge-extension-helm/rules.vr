@@ -1,0 +1,31 @@
+[VALIDATE_1]
+###Rule
+single-choice
+
+###Question
+Could you dynamically provide parameter to your solution?
+
+###Match
+[ ] Yes, command line providing the name, compile time
+[x] Yes, defining Helm variables, and remapping it in the environment of the container
+[ ] No, you need to create multiple versions
+[ ] No, but you can change the value in the POD via Kubernetes APIs
+
+[VALIDATE_1]
+
+[VALIDATE_2]
+###Rule
+multiple-choice
+
+###Question
+What of the following points are required to link the container image in the Helm solution?
+
+###Match
+[ ] In the edge node define replication services
+[x] Specify in the Extensions UI in a dedicate view the registry
+[ ] Deploy the configuration with the registry details into the node with Edge Configurator
+[x] Define it in the deployment file in the container definition
+[x] Define the registry in the Extensions UI while deploying the Helm chart
+[ ] Specify the image manually during the deployment of the Service
+
+[VALIDATE_2]
