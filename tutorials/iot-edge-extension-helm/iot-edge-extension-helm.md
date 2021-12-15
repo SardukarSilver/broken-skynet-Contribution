@@ -206,12 +206,7 @@ The second step consists in the creation of a new Helm solution (chart), and sto
 
     !![parameters](parameters.png)
 
-10.  Create the following parameters:
 
-    |  Deployment Configuration Parameter Name     | Description          |  Required     | Data Type          | Default Value
-    |  :------------- | :------------- |  :------------- | :------------- | :-------------
-    |  **`iot.edge.bindings`**           | of your choice, i.e. **`edge gateway service binding`**; this is how the extension is connected to the **Edge Gateway Service** APIs, it will be required if you are changing the default ports in the **Edge Gateway Service** deployment |    **`true`**         |  **`String`**         |   **```{"bindings":[{"type":"MQTT","id":"sap-iot-gateway","api":"MQTT API URL","url":"tcp://edge-gateway-service.sap-iot-gateway:61658"},{"type":"REST","id":"sap-iot-gateway","api":"REST API URL","url":"http://edge-gateway-service.sap-iot-gateway:61660"}]}```**
-    |  **`service.port`**         |  of your choice, i.e. **`extension service port`**; this is the port exposed by the extension service to access to the [published APIs](https://github.com/SAP-samples/iot-edge-samples/tree/main/IoT_Edge/edge-gateway-service-ref-app#description-services-functionalities)     |      **`true`**   |   **`String`**      | **`9000`**
 
 11.  Press **Create** to complete the creation of the deployment parameters.
 
