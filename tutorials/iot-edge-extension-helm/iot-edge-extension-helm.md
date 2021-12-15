@@ -206,9 +206,7 @@ The second step consists in the creation of a new Helm solution (chart), and sto
 
     !![parameters](parameters.png)
 
-
-
-11.  Press **Create** to complete the creation of the deployment parameters.
+11.  Press **Create** to complete the creation of the deployment 
 
 [DONE]
 [ACCORDION-END]
